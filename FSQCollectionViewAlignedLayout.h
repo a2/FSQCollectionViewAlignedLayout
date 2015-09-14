@@ -37,6 +37,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for FSQCollectionViewAlignedLayout.
+FOUNDATION_EXPORT double FSQCollectionViewAlignedLayoutVersionNumber;
+
+//! Project version string for FSQCollectionViewAlignedLayout.
+FOUNDATION_EXPORT const unsigned char FSQCollectionViewAlignedLayoutVersionString[];
+
 @class FSQCollectionViewAlignedLayoutSectionAttributes, FSQCollectionViewAlignedLayoutCellAttributes;
 
 @interface FSQCollectionViewAlignedLayoutInvalidationContext : UICollectionViewLayoutInvalidationContext
