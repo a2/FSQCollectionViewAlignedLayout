@@ -37,6 +37,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 //! Project version number for FSQCollectionViewAlignedLayout.
 FOUNDATION_EXPORT double FSQCollectionViewAlignedLayoutVersionNumber;
 
@@ -322,3 +324,5 @@ typedef NS_ENUM(NSInteger, FSQCollectionViewVerticalAlignment) {
       startLineIndentation:(BOOL)startLineIndentation;
 
 @end
+
+NS_ASSUME_NONNULL_END
